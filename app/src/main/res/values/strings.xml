@@ -10,7 +10,7 @@
 
     <string name="confirm_passcode_changed">PassCode Changed</string>
     <string name="confirm_passcode_created">PassCode Created</string>
-    <string name="app_locked_message">You app is locked. Please use it within 1 minute</string>
+    <string name="app_locked_message">You app is locked. Please use it within 15 minute</string>
     <string name="edit_passcode">Edit PassCode</string>
     <string name="turn_off_passcode">Turn off PassCode</string>
     <string name="turn_on_passcode">Turn on PassCode</string>
