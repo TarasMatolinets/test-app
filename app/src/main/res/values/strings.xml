@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">App Demo</string>
+    <string name="demo_shared_preferences">Demo preference</string>
+
+    <string name="enter_passcode">Enter PassCode</string>
+    <string name="create_passcode">Create PassCode</string>
+    <string name="confirm_passcode">Confirm PassCode</string>
+    <string name="wrong_passcode">You entered wrong PassCode</string>
+    <string name="enter_sucess_passcode">PassCode entered successfully</string>
+
+    <string name="confirm_passcode_changed">PassCode Changed</string>
+    <string name="confirm_passcode_created">PassCode Created</string>
+    <string name="app_locked_message">You app is locked. Please use it within 1 minute</string>
+    <string name="edit_passcode">Edit PassCode</string>
+    <string name="turn_off_passcode">Turn off PassCode</string>
+    <string name="turn_on_passcode">Turn on PassCode</string>
+    <string name="pass_code_limit_message">Your PassCode has to contain 4 digits</string>
+    <string name="lock">lock</string>
+    <string name="setting">Setting</string>
+</resources>

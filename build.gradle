@@ -1,0 +1,30 @@
+buildscript {
+    ext {
+        var = '4.0.1'
+    }
+    ext.kotlin_version = '1.4.0'
+    ext.composeVersion = "1.0.0-alpha02"
+    repositories {
+        google()
+        jcenter()
+
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:${var}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://dl.bintray.com/ironsource-mobile/android-sdk"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
